@@ -13,24 +13,27 @@
 ​
 ### Description
 ​
-This week's challenge was to build a timed quiz, where user will be penalized 15 secs for answering the question incorrectly. In addition, the page had to display highscores with initials.
+This week's challenge was to build a weather dashboard using API and having it run in the browser and feature dynamically updated HTML and CSS.
 ​
 ​
 ### Screenshot
 ​
-![](.image)
+![](./assets/Screenshot%202022-12-18%20at%2012.18.25%20PM.png)
 
 ​
 ​
 ### Links
 ​
-- GitHub URL: [https://github.com/hong-f/timed-code-quiz]
-- Live Site URL: [https://hong-f.github.io/timed-code-quiz/]
+- GitHub URL: [https://github.com/hong-f/weatherdashboard]
+- Live Site URL: [https://hong-f.github.io/weatherdashboard/]
 ​
 ## My process
-I did a lot of psudo coding to outline what I needed to build the timed quiz. I then did some research and felt that having a main page html and high score html would help organize the code for me better. 
+I first started by creatingthe framework of how the weather dashboard should look like through html, css, and bootstrap. From there, I did pseudo-coding to build out how the dashboard should function based on the requirements. 
 ### Built with
 ​
 - JS
 -html
 -cs
+-3rd party API
+-bootstrap
+-jquery
