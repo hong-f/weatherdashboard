@@ -93,4 +93,12 @@
   ul {
     list-style: none;
   }
+
+  #days {
+    color: black;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+  
+  }
   
