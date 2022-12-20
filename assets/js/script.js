@@ -1,16 +1,16 @@
+// default city
+var city = "New York";
 // API Key from openweathermap.org/api_keys
 var key = "b79cc6254e27226610d5a3bedbb15850";
-var city = "New York";
 // Current Time and Date
 var date = dayjs().format("dddd, MMMM DD YYYY");
 var dateTime = dayjs().format("dddd, MMMM DD YYYY, hh:mm.ss");
-// City history from search
+// city history
 var searchCity = [];
 
 // starting from left to right of CX
 
-
-// Save text value of search via storage/array
+// saving .textval of search via storage/array
 $(".search").on("click", function (event) {
 	event.preventDefault();
 	city = $(this).parent(".btnPar").siblings(".textVal").val().trim();
@@ -26,7 +26,7 @@ $(".search").on("click", function (event) {
 	getCurrentWeather();
 });
 
-// buttons created based on city history
+// buttons created based on search history
 	var constHistEl = $(".searchCity");
 	function getHistory() {
 	constHistEl.empty();
