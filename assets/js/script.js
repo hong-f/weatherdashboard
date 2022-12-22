@@ -158,8 +158,8 @@ function getFiveDayForecast() {
 	});
 };
 
-//Default data
-function initLoad() {
+// Default data
+function landing() {
 
 	var searchCityStore = JSON.parse(localStorage.getItem("city"));
 
@@ -170,4 +170,4 @@ function initLoad() {
 	getCurrentWeather();
 };
 
-initLoad();
+landing();
