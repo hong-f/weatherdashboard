@@ -19,7 +19,7 @@ $(".search").on("click", function (event) {
 	};
 	searchCity.push(city);
 
-	// set local storage for city's that were searched
+	// set local storage for cities that were searched
 	localStorage.setItem("city", JSON.stringify(searchCity));
 	getFiveDayForecastEl.empty();
 	getHistory();
